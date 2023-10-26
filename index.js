@@ -51,4 +51,10 @@ const getBlogContent = async () => {
   }
 }
 
+const loadAdds = () => {
+  console.log("Adds loaded");
+}
+
 getBlogContent();
+
+loadAdds();
